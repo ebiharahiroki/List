@@ -6,9 +6,9 @@ public class Main {
         names.add("りんご");
         names.add("みかん");
         names.add("ぶどう");
-        for(String l : names) {
-            if (l.equals("みかん"))
-                System.out.println("私の好きな食べ物は" + l + "です");
+        for(String name : names) {
+            if (name.equals("みかん"))
+                System.out.println("私の好きな食べ物は" + name + "です");
         }
     }
 
